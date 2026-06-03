@@ -17,6 +17,7 @@ The redesign focuses on creating a cleaner information hierarchy, stronger produ
 Redesigned Pages:
 
 * Home / Landing Page
+* About Us Page
 * Products Page
 * Global Growth Prisma Details Page
 * Contact Us Page
