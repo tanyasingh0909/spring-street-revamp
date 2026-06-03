@@ -1,36 +1,238 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Spring Street Revamp
 
-## Getting Started
+Frontend Engineering Internship Assignment Submission
 
-First, run the development server:
+## Overview
+
+This project is a complete redesign of the Spring Street public-facing platform as part of the Frontend Engineering Internship Assignment.
+
+The objective was to improve the overall user experience, visual storytelling, product presentation, and responsiveness while maintaining the trust and sophistication expected from a modern wealth management platform.
+
+The redesign focuses on creating a cleaner information hierarchy, stronger product narratives, smoother interactions, and a more polished investing experience for prospective users.
+
+---
+
+## Assignment Scope
+
+Redesigned Pages:
+
+* Home / Landing Page
+* Products Page
+* Global Growth Prisma Details Page
+* Contact Us Page
+* FAQ Page
+
+Reference Website:
+
+* https://springstreet.in
+* https://springstreet.in/products/prisma/global-growth-prisma
+
+---
+
+## Design Goals
+
+### Brand Positioning
+
+The redesign aims to communicate:
+
+* Trust
+* Simplicity
+* Global investing expertise
+* Research-driven decision making
+* Premium wealth management experience
+
+### User Experience Improvements
+
+* Cleaner navigation structure
+* Better product discoverability
+* Improved readability of investment information
+* Consistent visual language across pages
+* Mobile-first responsive design
+* Dark and Light mode support
+
+### Product Storytelling
+
+Special emphasis was placed on:
+
+* Presenting Prisma as a research-driven investment product
+* Simplifying complex financial information
+* Improving information hierarchy
+* Creating clearer user journeys from discovery to action
+
+---
+
+## Key Features
+
+### Home Page
+
+* Redesigned hero section
+* Improved call-to-actions
+* Product showcase section
+* Modern card layouts
+* Enhanced visual hierarchy
+
+### Products Page
+
+* Interactive product cards
+* Performance visualizations
+* Product categorization
+* Improved comparison experience
+
+### Prisma Details Page
+
+* Detailed product presentation
+* Portfolio construction methodology
+* Holdings overview
+* Investment thesis sections
+* Responsive financial data layouts
+
+### FAQ Page
+
+* Expandable FAQ system
+* View More functionality
+* Improved readability
+* Enhanced CTA section
+
+### Contact Page
+
+* Simplified contact experience
+* Consistent design language
+* Mobile-responsive layout
+
+---
+
+## Additional Enhancements
+
+* Dark / Light Theme Toggle
+* Responsive Navigation Menu
+* Product Dropdown Navigation
+* Animated Hover Interactions
+* Interactive Charts
+* Custom Branding
+* Improved Accessibility
+* Mobile Navigation Drawer
+* Custom Favicon Support
+
+---
+
+## Tech Stack
+
+### Frontend
+
+* Next.js 16
+* React
+* TypeScript
+* Tailwind CSS
+* Styled JSX
+
+### Development Tools
+
+* ESLint
+* PostCSS
+* Turbopack
+
+---
+
+## Project Structure
+
+```bash
+app/
+├── about/
+├── contact/
+├── faq/
+├── products/
+│   └── [slug]/
+├── layout.tsx
+├── page.tsx
+└── globals.css
+
+components/
+├── home/
+├── theme/
+├── Navbar.tsx
+└── Footer.tsx
+
+public/
+├── logo.png
+├── hero-illustration.png
+└── favicon.ico
+```
+
+---
+
+## Local Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/tanyasingh0909/spring-street-revamp
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Application will be available at:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Build
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Run production build:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm start
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is configured for deployment on:
+
+* Vercel
+* Netlify
+* Render
+
+Recommended platform:
+
+**Vercel**
+
+---
+
+## What I Focused On
+
+* Stronger product storytelling
+* Better investment product presentation
+* Premium visual design
+* Responsive experience across devices
+* Improved customer journey
+* Consistent design system
+* Professional wealth-management aesthetic
+
+---
+
+## Author
+
+**Tanya Singh**
+Third Year Undergraduate
+Chemical Engineering Department
+IIT Kanpur
+
+Frontend Engineering Internship Assignment Submission for Spring Street.
