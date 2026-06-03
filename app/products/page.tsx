@@ -676,14 +676,18 @@ export default function ProductsPage() {
           margin-top: 28px;
         }
         .view-all {
-          color: var(--accent);
-          font-size: 14px;
-          font-weight: 700;
-          text-decoration: none;
-        }
-        .view-all:hover {
-          text-decoration: underline;
-        }
+  color: #316cb5 !important;
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.view-all:hover {
+  color: #4a89dc !important;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
 
         /* HOW IT WORKS */
         .steps {
@@ -763,6 +767,18 @@ export default function ProductsPage() {
         :global(html.light) .btn-secondary:hover {
           background: rgba(10, 20, 40, 0.04);
         }
+          :global(.view-all) {
+  color: #316cb5 !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  text-decoration: none !important;
+}
+
+:global(.view-all:hover) {
+  color: #4a89dc !important;
+  text-decoration: underline !important;
+  text-underline-offset: 4px;
+}
 
         @media (max-width: 980px) {
           .hero {
